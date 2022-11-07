@@ -1,10 +1,11 @@
 body{
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(255, 255, 255);
     margin: 0;
 }
 
 .encabezado{
     background-color: rgb(220, 220, 220);
+    padding-top: 0.5%;
 }
 
 .menu{
@@ -21,7 +22,7 @@ body{
 
 .menu-ol li a{
     font-size: 20px;
-    color: orangered;
+    color: orange;
     font-weight: 700;
     text-decoration: none;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -36,6 +37,7 @@ body{
 .menu-ul li{
     list-style: none;
     min-width: 55%;
+    font-size: 16px;
 }
 
 .menu-ul li a{
@@ -43,5 +45,43 @@ body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black
 }
-
+.parrafo{
+    color:orange;
+    text-decoration: orange;
+}
 /* Fondo */
+
+/* Registro articulos */
+.form-articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: white;
+    padding: 1%;
+}
+img{
+    background-color: black;
+    border: 10px;
+    border-color: black;
+    width: 30%;
+}
+.cont-form{
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.cont-boton-arti{
+    display: flex;
+    justify-content: end;
+}
+.boton-arti{
+    height: 45px;
+    width: 190px;
+}
+.inputs-articulos{
+    width: 500px;
+}
+.p{
+    text-align: left;
+}
