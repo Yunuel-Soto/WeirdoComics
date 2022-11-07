@@ -66,6 +66,9 @@ img{
     border-color: black;
     width: 30%;
 }
+.imgComics{
+    width: 27%;
+}
 .cont-form{
     margin-right: 3%;
     display: flex;

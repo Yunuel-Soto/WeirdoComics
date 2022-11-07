@@ -18,7 +18,15 @@
                 <li><a href="{{ route('ini') }}" class="{{request()->routeIs('ini')?' text-warning fs-4':''}}">Weirdo Comics</a></li>
             </ol>
             <ul class="menu-ul">
-                <li><a href="">Comics</a></li>
+                <li>
+                    <a class="{{request()->routeIs('regc')?' text-warning fs-4':''}}" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Comics
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="{{route('regc')}}">Registro de Comics</a></li>
+                      <li><a class="dropdown-item" href="#">Comics de la tienda</a></li>
+                    </ul>
+                </li>
                 <li>
                     <a class="{{request()->routeIs('rega')?' text-warning fs-4':''}}" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Articulos
@@ -27,7 +35,7 @@
                       <li><a class="dropdown-item" href="{{route('rega')}}">Registro de Articulos</a></li>
                       <li><a class="dropdown-item" href="#">Articulos de la tienda</a></li>
                     </ul>
-                  </li>
+                </li>
                 <li><a href="">En Tienda</a></li>
                 <li><a href="">Proveedores</a></li>
                 <li><a href="">Pedidos</a></li>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\validarRegistroArticulos;
+use App\Http\Requests\validarRegistroComics;
 use Illuminate\Http\Request;
 
 class ControladorVistas extends Controller
@@ -39,9 +40,13 @@ class ControladorVistas extends Controller
     public function vistaVentasM(){
         return view('ventas_mostrador');
     }
-    public function Agregar_Articulo(validarRegistroArticulos $req){
+    public function AgregarArticulo(validarRegistroArticulos $req){
         $nombre = $req->input('nombre-arti');
         return redirect()->route('rega')->with('agregar', $nombre);
+    }
+    public function AgregarComic(validarRegistroComics $req){
+        $nombre = $req->input('nombre-comic');
+        return redirect()->route('regc')->with('agregar', $nombre);
     }
 
 }
