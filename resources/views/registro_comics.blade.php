@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 
-@section('titulo_documento', 'registro de comics')
+@section('titulo_documento', 'Registro de comics')
 
 @section('contenido')
 
@@ -13,7 +13,7 @@
   }) </script>"!!}
 @endif
 
-<form action="{{route('addCom')}}" method="POST" class="form-articulos">
+<form action="{{route('addCom')}}" method="POST" class="form-articulos comics">
     @csrf
     <div class="cont-form">
         <div class="titulo-arti">

@@ -37,7 +37,15 @@
                     </ul>
                 </li>
                 <li><a href="">En Tienda</a></li>
-                <li><a href="">Proveedores</a></li>
+                <li>
+                    <a class="{{request()->routeIs('regpro')?' text-warning fs-4':''}}" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Proveedores
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="{{route('regpro')}}">Registro de Proveedores</a></li>
+                      <li><a class="dropdown-item" href="#">Proveedores</a></li>
+                    </ul>
+                </li>
                 <li><a href="">Pedidos</a></li>
             </ul>
         </nav>

@@ -13,7 +13,7 @@ body{
     color: red;
     display: flex;
     flex-direction: row;
-    padding: 1%;
+
 }
 
 .menu-ol{
@@ -37,7 +37,7 @@ body{
 .menu-ul li{
     list-style: none;
     min-width: 55%;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .menu-ul li a{
@@ -60,6 +60,19 @@ body{
     background-color: white;
     padding: 1%;
 }
+.form-proveedores{
+    background-color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+.titulo-pro{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.comics{
+    margin-top: 0.5%;
+}
 img{
     background-color: black;
     border: 10px;
@@ -77,6 +90,11 @@ img{
 .cont-boton-arti{
     display: flex;
     justify-content: end;
+}
+.btn-comic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .boton-arti{
     height: 45px;

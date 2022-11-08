@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 
-@section('titulo_documento', 'registro de articulos')
+@section('titulo_documento', 'Registro de articulos')
 
 @section('contenido')
 

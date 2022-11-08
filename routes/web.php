@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::controller(ControladorVistas::class)->group(function(){
     Route::get('/','vistaMenu')->name('ini');
     Route::get('proveedores','vistaProveedores')->name('pro');
+    Route::get('registro_Proveedores', 'vistaRegistroPro')->name('regpro');
     Route::get('consultaCA','vistaCA')->name('cca');
     Route::get('levantamiento','vistaLevantamiento')->name('lev');
     Route::get('login','vistaLogin')->name('log');
@@ -29,6 +30,7 @@ Route::controller(ControladorVistas::class)->group(function(){
     Route::get('ventas_mostrador','vistaVentasM')->name('venm');
     Route::post('agregar', 'AgregarArticulo') -> name('addArti');
     Route::post('agregar_comic', 'AgregarComic')->name('addCom');
+    Route::post('agregar_proveedor', 'AgregarProveedor')->name('addProv');
 });
 
 // Route::view('/', 'menu');
