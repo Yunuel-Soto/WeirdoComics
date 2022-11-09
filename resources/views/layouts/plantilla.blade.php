@@ -36,7 +36,7 @@
                       <li><a class="dropdown-item" href="#">Articulos de la tienda</a></li>
                     </ul>
                 </li>
-                <li><a href="">En Tienda</a></li>
+                <li><a href="{{route('shop')}}">En Tienda</a></li>
                 <li>
                     <a class="{{request()->routeIs('regpro')?' text-warning fs-4':''}}" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Proveedores

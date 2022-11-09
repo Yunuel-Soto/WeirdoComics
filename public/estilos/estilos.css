@@ -68,9 +68,10 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background: url('/img/Fondo2.jpg');
+    background: url('/img/Fondo6.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .titulo-pro{
     text-align: center;
@@ -126,3 +127,32 @@ input:hover{
 .p{
     text-align: left;
 }
+
+/* Vista tienda */
+
+.cont-tienda{
+    padding: 2%;
+    padding-right: 0%;
+    background: url('/img/Fondo5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-card{
+    height: 450px;
+}
+.card{
+    width: 90%;
+}
+#card-color{
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+.tienda-selec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+

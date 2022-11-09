@@ -38,8 +38,8 @@ class ControladorVistas extends Controller
         return view('registro_comics');
     }
 
-    public function vistaVentasM(){
-        return view('ventas_mostrador');
+    public function vistaTienda(){
+        return view('tienda');
     }
     public function vistaRegistroPro(){
         return view('registro_Proveedores');
