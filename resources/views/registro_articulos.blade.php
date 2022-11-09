@@ -15,7 +15,7 @@
 
 <form action="{{route('addArti')}}" method="POST" class="form-articulos">
     @csrf
-    <div class="cont-form">
+    <div class="cont-form color-form">
         <div class="titulo-arti">
             <h2>Nuevo articulo</h2>
         </div>

@@ -15,7 +15,10 @@
 
 <form action="{{route('addProv')}}" method="POST" class="form-proveedores">
     @csrf
-    <div class="cont-form">
+
+    <img src="" alt="">
+
+    <div class="cont-form form-borde">
         <div class="titulo-pro">
             <h2>Nuevo proveedor</h2>
         </div>
@@ -68,6 +71,7 @@
         </div>
     </div>
     {{-- imagen --}}
+    <img src="" alt="">
 </form>
 
 
