@@ -137,7 +137,7 @@ input:hover{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 .img-card{
@@ -154,5 +154,12 @@ input:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between
+}
+.icon-a{
+    margin-left: 35%;
+}
+.h1-tienda{
+    margin: auto;
+    margin-bottom: 2%;
 }
 
