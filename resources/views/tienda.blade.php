@@ -5,8 +5,9 @@
 @section('contenido')
 
 <div class="cont-tienda">
-    <div class="icono"><a href="{{route('shCar')}}"><img class="img-tienda" src="/img/carrito-de-compras.png" alt=""></a></div class="icono">
-    <h1 class="h1-tienda"></h1>
+    <div class="icono">
+        <a href="{{route('shCar')}}"><img class="img-tienda" src="/img/carrito-de-compras.png" alt=""></a>
+    </div class="icono">
     <div class="row row-cols-1 row-cols-md-3 g-4 cont-cards">
         <div class="col">
             <div class="card" id="card-color">
