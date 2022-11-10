@@ -41,6 +41,9 @@ class ControladorVistas extends Controller
     public function vistaTienda(){
         return view('tienda');
     }
+    public function vistaCarrito(){
+        return view('carrito');
+    }
     public function vistaRegistroPro(){
         return view('registro_Proveedores');
     }

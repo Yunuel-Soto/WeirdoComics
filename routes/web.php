@@ -28,6 +28,7 @@ Route::controller(ControladorVistas::class)->group(function(){
     Route::get('registro_articulos','vistaRegistroA')->name('rega');
     Route::get('registro_comics','vistaRegistroC')->name('regc');
     Route::get('tienda','vistaTienda')->name('shop');
+    Route::get('carrito', 'vistaCarrito')->name('shCar');
     Route::post('agregar', 'AgregarArticulo') -> name('addArti');
     Route::post('agregar_comic', 'AgregarComic')->name('addCom');
     Route::post('agregar_proveedor', 'AgregarProveedor')->name('addProv');

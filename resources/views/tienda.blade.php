@@ -5,6 +5,7 @@
 @section('contenido')
 
 <div class="cont-tienda">
+    <div class="icono"><a href="{{route('shCar')}}"><img class="img-tienda" src="/img/carrito-de-compras.png" alt=""></a></div class="icono">
     <h1 class="h1-tienda"></h1>
     <div class="row row-cols-1 row-cols-md-3 g-4 cont-cards">
         <div class="col">
@@ -16,8 +17,8 @@
                     <div class="tienda-selec">
                         <button type="button" class="btn btn-primary">Comprar</button>
                         <div class="iconos">
-                            <a href="" class="icon-a"><img src="/img/basura.png" alt=""></a>
-                            <a href="" class=""><img src="/img/editar.png" alt=""></a>
+                            <a href="" class="icon-a"><img src="/img/basura.png" alt="Eliminar"></a>
+                            <a href="" class=""><img src="/img/editar.png" alt="Editar"></a>
                         </div>
                     </div>
                 </div>

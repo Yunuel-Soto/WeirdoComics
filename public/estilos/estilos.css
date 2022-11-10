@@ -138,7 +138,6 @@ input:hover{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 .img-card{
     height: 450px;
@@ -162,4 +161,63 @@ input:hover{
     margin: auto;
     margin-bottom: 2%;
 }
-
+.img-tienda{
+    width: 70px;
+}
+.icono{
+    display: flex;
+    justify-content: end;
+    padding-right: 4%;
+}
+/* vista carrito */
+.cont-carrito{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 1%;
+    background: url('/img/Fondo6.jpeg');
+}
+.form-carrito{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    color: white;
+}
+.cont-info{
+    width: 100%;
+    margin-bottom: 2%;
+}
+.rectangulo{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 2%;
+    background-color: white;
+}
+.rectangulo:hover{
+    box-shadow: 0 0 10px orangered;
+}
+.h1{
+    margin: auto;
+    color: rgb(221, 122, 8);
+}
+.cont-labels{
+    display: flex;
+    justify-content: space-between;
+    font-size: 300%;
+    margin-bottom: 2%;
+}
+.btn-carrito{
+    height: 80%;
+    width: 200px;
+}
